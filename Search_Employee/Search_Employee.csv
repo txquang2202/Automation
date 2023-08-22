@@ -1,0 +1,11 @@
+TEST CASE ,Employee Name,Id,Include,EXPECTED OUTPUT ,ACTUAL OUTPUT,RESULT
+1,Tr?n Xuân Qang ,1,Current Employees Only,VALID,,
+2,,1,Current Employees Only,VALID,,
+3,12321321321,1,Current Employees Only,VALID,,
+4,Quang ,,Current Employees Only,VALID,,
+5,,,Current Employees Only,VALID,,
+6,workkkkkkk… ,1,Current Employees Only,VALID,,
+7,quang ,1,Current Employees Only,VALID,,
+8,2,1,Current Employees Only,VALID,,
+9,id03# ,1,Current Employees Only,VALID,,
+10,"""Empty"" ",1,Current Employees Only,VALID,,
