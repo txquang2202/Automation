@@ -1,16 +1,17 @@
-TEST CASE ,Report Name,Selection Criteria,Display Field Groups,Display Fields,EXPECTED OUTPUT ,ACTUAL OUTPUT,RESULT,,,
-1,,Education,Personal,Gender,INVALID  ,,,,,
-2,Weekly report ,Education,Personal,Gender,VALID,,,,,
-3,12321321321,Education,Personal,Gender,INVALID  ,,,,,
-4,QuanggggMax,Education,Personal,Gender,INVALID  ,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,s
+TEST CASE ,Field Testing,Report Name,Selection Criteria,Selection Criteria Include,Display Fields,EXPECTED OUTPUT ,ACTUAL OUTPUT,RESULT
+1,"
+
+Report Name
+
+",Quang,Employment Status,Current Employees Only,Personal,VALID,,
+2,,Quangggggggggggggggggggggggggggggggggggg,Employment Status,Current Employees Only,Personal,INVALID,,
+3,,123123123,Employment Status,Current Employees Only,Personal,INVALID,,
+4,,,Employment Status,Current Employees Only,Personal,INVALID,,
+5,,Quang########,Employment Status,Current Employees Only,Personal,INVALID,,
+6,,Quang123123123,Employment Status,Current Employees Only,Personal,INVALID,,
+7,Selection Criteria,Quang,Employment Status,Current Employees Only,Personal,VALID,,
+8,,Quang,,Current Employees Only,Personal,INVALID,,
+9,Selection Criteria Include,Quang,Employment Status,Current Employees Only,Personal,VALID,,
+10,,Quang,Employment Status,,Personal,VALID,,
+11,Display Fields,Quang,Employment Status,Current Employees Only,Personal,VALID,,
+12,,Quang,Employment Status,Current Employees Only,,INVALID,,
